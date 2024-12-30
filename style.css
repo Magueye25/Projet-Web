@@ -1,0 +1,56 @@
+
+
+body {
+  background-color: #391111;
+
+}
+
+p {
+  color: white;
+}
+
+
+.encadre-flex {
+  display: flex; /* Active Flexbox */
+  flex-direction: column; /* Empile les éléments verticalement */
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+  background-color: #3b1a1a;
+  color: white;
+  border: 2px solid #5c2c2c;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.encadre-flex img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.encadre-flex a {
+  color: #ffdddd;
+  text-decoration: none;
+}
+
+.encadre-flex a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.image-container {
+  display: flex; /* Flexbox pour organiser éventuellement plus d'éléments */
+  justify-content: center; /* Centre horizontalement l'image */
+  align-items: flex-start; /* Assure que l'image reste en haut */
+  height: auto; /* Ajuste la hauteur si nécessaire */
+}
+
+.image {
+  width: 100px; /* Ajuste la taille de l'image */
+  height: auto; /* Garde les proportions */
+}
