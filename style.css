@@ -4,6 +4,41 @@ body {
   background-color: #391111;
 
 }
+.darkmode {
+  background-color:#0C0C0C;
+  color: white;
+}
+.darkmode .encadre-flex {
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px solid #333;
+}
+
+
+#theme-switch{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--base-variant);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#theme-switch svg{
+  fill: var(--primary-color);
+}
+#theme-switch svg:last-child{
+  display: none;
+}
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
+
+
 
 p {
   color: white;
