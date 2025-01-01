@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(180deg, #4B0000, #300000, #200000); 
+    color: white; 
+    margin: 0; 
+    padding: 0; 
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+.banner {
+    background: url('banniere.png') no-repeat center center; /* Image en fond */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'espace */
+    color: white;
+    text-align: center;
+    padding: 0px; /* Plus d'espace pour un effet visuel */
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.menu-list {
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.menu-list.show {
+  opacity: 1;
+}
