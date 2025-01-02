@@ -89,3 +89,59 @@ p {
   width: 100px; /* Ajuste la taille de l'image */
   height: auto; /* Garde les proportions */
 }
+
+
+.navbar {
+  position: absolute;
+  margin: 50 px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  box-sizing: border-box;
+
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 2em ;
+  font-weight: bold;
+}
+
+
+.navbar .navdiv ul {
+  display: flex;
+
+}
+
+.navbar .navdiv li {
+  margin: 0 20px;
+
+}
+
+.navbar .navdiv ul li.active a {
+  color: red;
+  font-weight: 600;
+
+}
+
+@media screen  and (max-width : 546px) {
+  .navdiv {
+    display: none; 
+  }
+
+}
+
+.navbar .menu-hamburger {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 35px;
+}
+
+.menu-hamburger {
+  justify-content: flex-end;
+}
