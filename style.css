@@ -123,12 +123,12 @@ p {
 }
 
 .navbar .navdiv ul li.active a {
-  color: red;
+  color: black;
   font-weight: 600;
 
 }
 
-@media screen  and (max-width : 1170px)  {
+@media screen  and (max-width : 1120px)  {
   .navdiv {
     width: 100%;
   }
@@ -147,6 +147,12 @@ p {
   .image-container p {
     font-size: 1.3em
   }
+  .navbar {
+    width: 100%
+  }
+  .navbar p {
+    font-size: 1.3em
+  }
 }
 
 .navbar .menu-hamburger {
@@ -158,4 +164,27 @@ p {
 
 .menu-hamburger {
   justify-content: flex-end;
+}
+
+
+.navbar{
+  background: #8F2424; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+  font-size: 35px; font-weight: 600; color: white;
+}
+li{
+  list-style: none; display: inline-block;
+}
+li a{
+  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button{
+  background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a{
+  color: white; font-weight: bold; font-size: 15px;
 }
