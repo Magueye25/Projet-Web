@@ -93,12 +93,13 @@ p {
 
 .navbar {
   position: absolute;
-  margin: 50 px;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 99%;
-  box-sizing: border-box;
+  width: 100%;
+  background: #8F2424; font-family: calibri; padding-right: 15px;padding-left: 15px;
 
 }
 
@@ -127,6 +128,15 @@ p {
   font-weight: 600;
 
 }
+li{
+  list-style: none; display: inline-block;
+}
+li a{
+  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+  text-decoration: none;
+}
+
+
 
 @media screen  and (max-width : 1120px)  {
   .navdiv {
@@ -155,25 +165,6 @@ p {
   }
 }
 
-.navbar .menu-hamburger {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  width: 35px;
-}
-
-.menu-hamburger {
-  justify-content: flex-end;
-}
 
 
-.navbar{
-  background: #8F2424; font-family: calibri; padding-right: 15px;padding-left: 15px;
-}
-li{
-  list-style: none; display: inline-block;
-}
-li a{
-  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
-}
 
