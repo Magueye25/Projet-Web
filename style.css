@@ -128,11 +128,25 @@ p {
 
 }
 
-@media screen  and (max-width : 546px) {
+@media screen  and (max-width : 1170px)  {
   .navdiv {
-    display: none; 
+    width: 100%;
   }
-
+  .navdiv p {
+    font-size: 1.3em
+  }
+  .encadre-flex {
+    width: 100%;
+  }
+  .encadre-flex p {
+    font-size: 1.3em
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container p {
+    font-size: 1.3em
+  }
 }
 
 .navbar .menu-hamburger {
