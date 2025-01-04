@@ -2,6 +2,7 @@
 
 body {
   background-color: #391111;
+  padding-top: 60px;
 
 }
 .darkmode {
@@ -83,6 +84,7 @@ p {
   justify-content: center; /* Centre horizontalement l'image */
   align-items: flex-start; /* Assure que l'image reste en haut */
   height: auto; /* Ajuste la hauteur si nécessaire */
+  width: 100%;
 }
 
 .image {
