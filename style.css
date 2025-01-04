@@ -62,6 +62,10 @@ p {
   padding: 20px;
   width: 1000px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Inter;
+  text-align: justify;
+  font-weight: 500;
+
 }
 
 .encadre-flex img {
@@ -77,6 +81,7 @@ p {
 
 .encadre-flex a:hover {
   text-decoration: underline;
+  
 }
 
 
@@ -88,12 +93,12 @@ p {
   justify-content: center; /* Centre horizontalement l'image */
   align-items: flex-start; /* Assure que l'image reste en haut */
   height: auto; /* Ajuste la hauteur si nécessaire */
-  width: 100%;
 }
 
 .image {
   width: 100px; /* Ajuste la taille de l'image */
   height: auto; /* Garde les proportions */
+  
 }
 
 
