@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Dive deep into the rich lore of Lethal Company. Uncover the dark backstory and chilling mysteries behind the game's setting, characters, and terrifying entities.">
+
   <title>Le Lore du Jeu</title>
 </head>
 <body>
@@ -11,53 +14,53 @@
 <!-- Navigation bar -->
 <nav class="top-nav">
   <ul>
-    <li><a href="moi.html">Accueil</a></li>
+    <li><a href="index.html">Acceuil</a></li>
     <li><a href="Monstres.html">Monstres</a></li>
     <li><a href="butdujeu.html">But</a></li>
-    <li><a href="Objetjeu.html">Objets</a></li>
+    <li><a href="#samepageclicked" class="active">Lore</a></li> <!-- active class here -->
+    <li><a href="objetsjeu.html">Objets</a></li>
     <li><a href="planetes.html">Planètes</a></li>
   </ul>
 </nav>
 
-<img src="bootlogo.webp" alt="Image superposée" class="logo-image">
+<a href="index.html"><img src="image/bootlogo.webp" alt="Image superposée" class="logo-image"></a>
 
+<!-- Image container -->
 <div class="image-container">
-  <img src="logo.png" alt="image of the group" width="2500" height="300" class="darker">
+  <img src="image/logo.png" alt="image of the group" width="2500" height="300" class="darker">
+</div>
+<div id="samepageclicked"></div>
+
+<!-- Lore Content -->
+<div class="encadre-flex">
+  <img src="image/lore.png" alt="Lethal Company">
+  <div class="text">
+    <p><strong>Lethal Company</strong> est un jeu qui regorge d’histoire même si, à première vue, on ne le croirait pas. Quand on y joue depuis un certain temps, on commence à se poser des questions : d’où viennent les monstres ? Pourquoi travaillons-nous pour une compagnie si mystérieuse ? Pourquoi les planètes sont-elles abandonnées ? À ce jour, le créateur <strong>Zeekerss</strong> n’a évidemment pas tout révélé du lore du jeu, mais nous savons déjà beaucoup de choses.
+    
+    Lorsque nous explorons le jeu, nous pouvons découvrir des cassettes qui racontent une histoire se déroulant bien avant l’an <strong>2543</strong>, l’époque où se situe l’action principale. Le lore, quant à lui, semble remonter aux années 1960, comme l’indiquent certaines de ces cassettes.</p>
+  </div>
 </div>
 
-<center>
-  <p>
-    <div class="encadre-flex">
-      <img src="lore.png" alt="Lethal Company" />
-      <div class="text">
-        <p><strong>Lethal Company</strong> est un jeu qui regorge d’histoire même si, à première vue, on ne le croirait pas. Quand on y joue depuis un certain temps, on commence à se poser des questions : d’où viennent les monstres ? Pourquoi travaillons-nous pour une compagnie si mystérieuse ? Pourquoi les planètes sont-elles abandonnées ? À ce jour, le créateur <strong>Zeekerss</strong> n’a évidemment pas tout révélé du lore du jeu, mais nous savons déjà beaucoup de choses.
-        
-        Lorsque nous explorons le jeu, nous pouvons découvrir des cassettes qui racontent une histoire se déroulant bien avant l’an <strong>2543</strong>, l’époque où se situe l’action principale. Le lore, quant à lui, semble remonter aux années 1960, comme l’indiquent certaines de ces cassettes.</p>
-      </div>
-    </div>
-  </p>
+<!-- Link to Other Sections -->
+<div class="encadre-flex">
+  <img src="image/butjeu.png" alt="Lethal Company">
+  <div class="text">
+    <p><a href="butdujeu.html">LE BUT DU JEU</a></p>
+  </div>
+</div>
 
-  <p>
-    <div class="encadre-flex">
-      <img src="butjeu.png" alt="Lethal Company" />
-      <div class="text">
-        <p><a href="butdujeu.html">LE BUT DU JEU</a></p>
-      </div>
-    </div>
-  </p>
+<div class="encadre-flex">
+  <img src="image/monstre.png" alt="Lethal Company">
+  <div class="text">
+    <p><a href="Monstres.html">LES DIFFÉRENTS MONSTRES</a></p>
+  </div>
+</div>
 
-  <p>
-    <div class="encadre-flex">
-      <img src="monstre.png" alt="Lethal Company" />
-      <div class="text">
-        <p><a href="Monstres.html">LES DIFFÉRENTS MONSTRES</a></p>
-      </div>
-    </div>  
-  </p>
-</center>
-
+<!-- Footer with Go To Top Link -->
 <footer>
-    Made by Alexandre Magueye Gheorghe
+  <a href="#top" class="no-decoration"><em>Go To Top</em></a><br>
+    Made by Alexandre Magueye Gheorghe | <a href="aboutus.html"> About us</a>
 </footer>
+
 </body>
 </html>
