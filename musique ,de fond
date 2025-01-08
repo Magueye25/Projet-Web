@@ -1,0 +1,3 @@
+    <audio autoplay loop>
+    <source src="musique.mp3" type="audio/mpeg">
+    </audio>
