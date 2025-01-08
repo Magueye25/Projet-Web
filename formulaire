@@ -1,0 +1,39 @@
+    <html lang="fr">
+    <head>
+        <title> Formulaires</title>
+        <meta charset="utf-8">
+    <style>
+    body {
+    background-color: #8B0000; 
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    }
+    h1 {
+    color: rgb(139, 0, 0); 
+    }
+    </style>
+    </head>
+
+
+    <body>
+    <h1> avis </h1>
+    <form id="form" action="mailto:my@e-mail?content- type=text/html&subject=Site%20Web" method="post" enctype="text/plain">
+
+    <p>
+    <label for="prenom">Prénom</label>
+    <input id="prénom" type="text" name="prenom" value=" ">
+    <label for="nom">Nom</label>
+    <input id="nom" type="text" name="nom" value=" ">
+    <br>
+    <input id="sexeHomme"type="radio" name="sexe" value="homme">
+    <label for="sexeHomme">Homme</label>
+    <input id="sexeFemme" type="radio" name="sexe" value="femme">
+    <label for="sexeHommeFemme">Femme</label>
+    <br>
+     <textarea name="impression" rows="5" cols="50">Donnez vos impressions sur le cite</textarea>
+    <br>
+    <input type="submit" value="Envoyeer">
+    </p>
+    </form>
